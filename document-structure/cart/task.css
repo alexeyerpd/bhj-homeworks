@@ -19,6 +19,31 @@ body {
   padding: 2px 5px;
 }
 
+.cart__count-controls {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  display: flex;
+  width: calc(100% - 10px);
+}
+
+.cart__count-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+
+  margin-right: 7px;
+
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 50%;
+
+  font-weight: bold;
+}
+
 .cart__product-image {
   border-radius: 6px;
   margin-right: 10px;
@@ -26,6 +51,7 @@ body {
   height: 100px;
   object-fit: contain;
 }
+
 .product {
   display: flex;
   flex-wrap: wrap;
@@ -64,7 +90,8 @@ body {
   font-weight: bold;
 }
 
-.product__quantity-control:hover {
+.product__quantity-control:hover,
+.cart__count-control:hover {
   background: gray;
   color: #fff;
 }
