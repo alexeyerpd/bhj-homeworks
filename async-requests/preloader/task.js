@@ -61,7 +61,7 @@ function getCurrencies() {
 
 function init() {
     const lsData = getResponseFromLS();
-    if (lsData.response) {
+    if (lsData?.response) {
         renderCurrencies(lsData.response.Valute);
         document.getElementById("loader").classList.remove("loader_active");
     }

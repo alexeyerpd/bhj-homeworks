@@ -50,3 +50,11 @@ button {
 .input__wrapper-button:hover {
   background-color: #005ce6;
 }
+
+.status_success {
+  color: #00e613;
+}
+
+.status_error {
+  color: #ff0000;
+}
