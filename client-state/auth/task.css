@@ -45,3 +45,13 @@
   display: block;
   text-align: center;
 }
+
+.error {
+  margin-bottom: 20px;
+  color: #ff0000;
+}
+
+.logout {
+  position: absolute;
+  right: 30px;
+}
